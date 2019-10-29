@@ -9,5 +9,5 @@ def getHTMLText(url):
         return "产生异常"
 
 if __name__ == '__main__':
-    url = "http://1t.click/c7d"
+    url = "http://1t.click/c7d"#如果把http去掉，则会返回
     print(getHTMLText(url))
